@@ -1,0 +1,104 @@
+﻿<Window x:Class="reordering.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:reordering"
+        xmlns:reorder="clr-namespace:ReoderBehavior;assembly=ReoderBehavior"
+        xmlns:I="http://schemas.microsoft.com/xaml/behaviors"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="402" Width="724">
+    <Canvas x:Name="mainCanvas">
+        <Rectangle Fill="#FFFF7F7F" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="20" Canvas.Top="20" reorder:Reordering.IsReorderable="True">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FFFFCB7F" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="135" Canvas.Top="20" RadiusY="50" RadiusX="50">
+            
+        </Rectangle>
+        <Rectangle Fill="#FFD0FF7F" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="250" Canvas.Top="20">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FF90FF7F" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="365" Canvas.Top="20">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FF7FFFD0" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="480" Canvas.Top="20">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FF7FDCFF" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="595" Canvas.Top="20">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FF7F96FF" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="20" Canvas.Top="135">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FFA87FFF" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="135" Canvas.Top="135">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FFE87FFF" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="250" Canvas.Top="135">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FFFF7F90" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="365" Canvas.Top="135">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FFFF5726" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="480" Canvas.Top="135">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FFFFAE00" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="595" Canvas.Top="135">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FFFFF300" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="20" Canvas.Top="250">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FF51FF00" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="135" Canvas.Top="250">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FF00FFC5" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="250" Canvas.Top="250">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FF008BFF" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="365" Canvas.Top="250">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FFAE00FF" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="480" Canvas.Top="250">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Rectangle Fill="#FFFF00E8" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Canvas.Left="595" Canvas.Top="250">
+            <I:Interaction.Behaviors>
+                <reorder:Reordering/>
+            </I:Interaction.Behaviors>
+        </Rectangle>
+        <Label Content="Not Reorderable" Canvas.Left="137"/>
+
+
+    </Canvas>
+</Window>
