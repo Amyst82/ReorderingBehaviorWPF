@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Xaml.Behaviors">
+      <HintPath>..\..\..\..\Downloads\Parallax.WPF-master\Parallax.WPF\Parallax.WPF\bin\Release\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
