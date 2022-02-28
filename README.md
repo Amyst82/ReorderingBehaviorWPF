@@ -5,6 +5,7 @@ Known issues:
 > Works only on controls that are children of a Canvas
 > 
 > Controls are the same size
+
 Will be fixed in future updates
 
 ## Dependencies
