@@ -32,10 +32,7 @@ Add `Reordering.cs` to your project or `ReorderingBehavior.dll` assembly to depe
 using ReoderBehavior;
 using Microsoft.Xaml.Behaviors;
 ```
-![reordering gif](https://user-images.githubusercontent.com/20230176/156030242-35b74d08-8565-47b9-8dd3-9863c0d6152c.gif)
-
-
-
+C# code
 ```
 Button b = new Button();
 Reordering reorder = new Reordering();
@@ -43,4 +40,5 @@ mainCanvas.Children.Add(b);
 reorder.Attach(b);
 Interaction.GetBehaviors(b).Add(reorder);
 ```
-
+## Demo
+![reordering gif](https://user-images.githubusercontent.com/20230176/156030242-35b74d08-8565-47b9-8dd3-9863c0d6152c.gif)
