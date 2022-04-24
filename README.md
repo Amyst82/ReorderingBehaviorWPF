@@ -1,5 +1,5 @@
 # ReorderingBehaviorWPF
-### Reordering behavior fog WPF controls
+### Reordering behavior for WPF controls
 
 Known issues:
 > Works only on controls that are children of a Canvas
